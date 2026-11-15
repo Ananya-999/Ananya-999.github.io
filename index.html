@@ -90,9 +90,6 @@
         <rect x="9" y="9" width="11" height="11" rx="2" />
         <path d="M5 15V5a1 1 0 0 1 1-1h9" />
       </symbol>
-      <symbol id="icon-check" viewBox="0 0 24 24">
-        <path d="M5 12.5 10 17l9-9" />
-      </symbol>
       <symbol id="icon-sun" viewBox="0 0 24 24">
         <circle cx="12" cy="12" r="4" />
         <path
@@ -118,7 +115,7 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
+            <li><a href="#background">Background</a></li>
           </ul>
         </nav>
 
@@ -326,6 +323,10 @@
                 One continuous job: a one-year internship, then full-time. CommScope's Home Networks
                 business became part of Vantiva through an acquisition.
               </p>
+              <p class="job__note">
+                I also mentored 30 B.Tech students at Dayananda Sagar College of Engineering through
+                the company's tech CSR committee.
+              </p>
             </header>
 
             <ol class="timeline">
@@ -412,26 +413,19 @@
           </article>
         </div>
 
-        <h3 class="subheading eyebrow reveal">Internship during my B.Tech</h3>
-        <article class="card reveal">
-          <div class="role__header">
-            <h4 class="role__title">Web Developer Intern</h4>
+        <div class="earlier reveal">
+          <h3 class="eyebrow">Internship during my B.Tech</h3>
+          <div class="role__header earlier__header">
+            <h4 class="role__title">Web Developer Intern, Samsung (Remote)</h4>
             <p class="mono">
               <time datetime="2021-07">Jul 2021</time> – <time datetime="2022-03">Mar 2022</time>
             </p>
           </div>
-          <p class="internship__company">Samsung (Remote)</p>
-          <ul class="points">
-            <li>Built a skill assessment web app that shows results as interactive charts.</li>
-            <li>Wrote Selenium tests for the main user flows.</li>
-          </ul>
-          <ul class="tags" aria-label="Tools">
-            <li class="tag">Python</li>
-            <li class="tag">Bootstrap</li>
-            <li class="tag">Chart.js</li>
-            <li class="tag">Selenium</li>
-          </ul>
-        </article>
+          <p class="earlier__text">
+            Built a skill assessment web app that shows results as interactive charts, with Selenium
+            tests for the main user flows.
+          </p>
+        </div>
 
         <p class="resume-note reveal">
           My full resume is available on request. Just
@@ -443,142 +437,56 @@
       <section class="section container" id="projects" aria-labelledby="projects-title">
         <div class="section-heading reveal">
           <p class="section-heading__number eyebrow"><span class="accent">02</span></p>
-          <h2 class="section-heading__title" id="projects-title">Projects</h2>
+          <h2 class="section-heading__title" id="projects-title">Things I've built</h2>
         </div>
 
-        <div class="projects">
-          <article class="project reveal">
-            <div class="project__visual" aria-hidden="true">
-              <div class="mock mock--phone">
-                <div class="mock__bar mock__notch"></div>
-                <div class="mock__bar mock__search"></div>
-                <div class="mock__row">
-                  <div class="mock__thumb"></div>
-                  <div class="mock__lines">
-                    <div class="mock__bar"></div>
-                    <div class="mock__bar"></div>
-                  </div>
-                </div>
-                <div class="mock__row">
-                  <div class="mock__thumb"></div>
-                  <div class="mock__lines">
-                    <div class="mock__bar"></div>
-                    <div class="mock__bar"></div>
-                  </div>
-                </div>
-                <div class="mock__row">
-                  <div class="mock__thumb"></div>
-                  <div class="mock__lines">
-                    <div class="mock__bar"></div>
-                    <div class="mock__bar"></div>
-                  </div>
-                </div>
-                <div class="mock__row">
-                  <div class="mock__thumb"></div>
-                  <div class="mock__lines">
-                    <div class="mock__bar"></div>
-                    <div class="mock__bar"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="project__body">
-              <p class="eyebrow">iOS app · Coding assignment · 2025</p>
-              <h3 class="project__title">ReaderApp</h3>
-              <p class="project__text">
-                A news reader for iOS, with the whole UI built in code and no storyboards. It pulls
-                articles from a public news API and shows each one's title, author and thumbnail.
-                Articles are cached in Core Data, so the list still loads offline. You can search by
-                title and pull to refresh, and it supports light and dark mode.
-              </p>
-              <ul class="tags" aria-label="Built with">
-                <li class="tag tag--strong">Swift</li>
-                <li class="tag tag--strong">UIKit</li>
-                <li class="tag tag--strong">Core Data</li>
-                <li class="tag tag--strong">URLSession</li>
-                <li class="tag tag--strong">MVVM</li>
-              </ul>
-              <div class="project__links">
-                <a
-                  class="button button--primary"
-                  href="https://github.com/Ananya-999/ReaderApp-iOS-Ananya"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Code on GitHub<span class="visually-hidden"> (opens in a new tab)</span>
-                  <svg class="icon" aria-hidden="true"><use href="#icon-external" /></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project reveal">
-            <div class="project__visual" aria-hidden="true">
-              <div class="mock mock--browser">
-                <div class="mock__chrome">
-                  <span class="mock__dot"></span>
-                  <span class="mock__dot"></span>
-                  <span class="mock__dot"></span>
-                  <span class="mock__bar mock__url"></span>
-                </div>
-                <div class="mock__page">
-                  <div class="mock__nav">
-                    <span class="mock__brand">Insureasy</span>
-                    <span class="mock__bar"></span>
-                  </div>
-                  <div class="mock__banner">
-                    <span class="eyebrow">Our incentives</span>
-                    <span class="mock__bar"></span>
-                  </div>
-                  <div class="mock__tiles">
-                    <span class="mock__tile">Health insurance</span>
-                    <span class="mock__tile">Life insurance</span>
-                    <span class="mock__tile">Loan on policy</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="project__body">
-              <p class="eyebrow">Web app · University team project · 2021</p>
-              <h3 class="project__title">Insureasy</h3>
-              <p class="project__text">
-                A prototype insurance website we built with Django for KL University's Social
-                Development Projects. I led the team and worked as a developer. It has pages for
-                life and health policies, loans against a policy and claim requests. The demo and
-                the public code cover the static frontend.
-              </p>
-              <ul class="tags" aria-label="Built with">
-                <li class="tag tag--strong">Django</li>
-                <li class="tag tag--strong">Python</li>
-                <li class="tag tag--strong">MySQL</li>
-                <li class="tag tag--strong">HTML</li>
-                <li class="tag tag--strong">CSS</li>
-              </ul>
-              <div class="project__links">
-                <a
-                  class="button button--primary"
-                  href="https://v-ananya.github.io/Django/Insurance%20System/homePage/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live demo<span class="visually-hidden"> (opens in a new tab)</span>
-                  <svg class="icon" aria-hidden="true"><use href="#icon-external" /></svg>
-                </a>
-                <a
-                  class="button button--ghost"
-                  href="https://github.com/V-Ananya/V-Ananya.github.io/tree/main/Django/Insurance%20System"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Frontend code<span class="visually-hidden"> (opens in a new tab)</span>
-                  <svg class="icon" aria-hidden="true"><use href="#icon-external" /></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
+        <ul class="builds">
+          <li class="build reveal">
+            <h3 class="build__name">ReaderApp</h3>
+            <p class="build__text">
+              An iOS news reader with offline caching in Core Data, search and pull to refresh.
+              Built in Swift and UIKit as a coding assignment in 2025.
+            </p>
+            <p class="build__links">
+              <a
+                class="text-link"
+                href="https://github.com/Ananya-999/ReaderApp-iOS-Ananya"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code<span class="visually-hidden"> for ReaderApp (opens in a new tab)</span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-external" /></svg>
+              </a>
+            </p>
+          </li>
+          <li class="build reveal">
+            <h3 class="build__name">Insureasy</h3>
+            <p class="build__text">
+              A prototype insurance site from a 2021 university team project that I led, built with
+              Django and MySQL. The demo shows the static frontend.
+            </p>
+            <p class="build__links">
+              <a
+                class="text-link"
+                href="https://v-ananya.github.io/Django/Insurance%20System/homePage/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo<span class="visually-hidden"> of Insureasy (opens in a new tab)</span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-external" /></svg>
+              </a>
+              <a
+                class="text-link"
+                href="https://github.com/V-Ananya/V-Ananya.github.io/tree/main/Django/Insurance%20System"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code<span class="visually-hidden"> for Insureasy (opens in a new tab)</span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-external" /></svg>
+              </a>
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section class="section section--tinted" id="skills" aria-labelledby="skills-title">
@@ -633,80 +541,25 @@
         </div>
       </section>
 
-      <section class="section container" id="education" aria-labelledby="education-title">
+      <section class="section container" id="background" aria-labelledby="background-title">
         <div class="section-heading reveal">
           <p class="section-heading__number eyebrow"><span class="accent">04</span></p>
-          <h2 class="section-heading__title" id="education-title">
-            Education &amp; certifications
-          </h2>
+          <h2 class="section-heading__title" id="background-title">Background</h2>
         </div>
 
-        <div class="credentials">
-          <div class="reveal">
-            <h3 class="credentials__title eyebrow">Education</h3>
-            <ol class="entries">
-              <li class="entry">
-                <p class="mono"><time datetime="2026-10">Oct 2026</time> – present</p>
-                <h4 class="entry__title">PG Program in Generative AI and Agentic AI</h4>
-                <p class="entry__detail">
-                  IIT Kanpur · Online program with on-campus immersion, in progress
-                </p>
-              </li>
-              <li class="entry">
-                <p class="mono">
-                  <time datetime="2019">2019</time> – <time datetime="2023">2023</time>
-                </p>
-                <h4 class="entry__title">B.Tech, Computer Science and Engineering</h4>
-                <p class="entry__detail">KL University, Vaddeswaram</p>
-                <p class="tag tag--accent">CGPA 9.14</p>
-              </li>
-            </ol>
+        <dl class="background reveal">
+          <div class="background__row">
+            <dt class="eyebrow">Education</dt>
+            <dd>B.Tech, Computer Science and Engineering, KL University, 2023 · CGPA&nbsp;9.14</dd>
           </div>
-
-          <div class="reveal">
-            <h3 class="credentials__title eyebrow">Certifications</h3>
-            <ul class="checklist">
-              <li>
-                <svg class="icon" aria-hidden="true"><use href="#icon-check" /></svg>
-                Microsoft Certified: DevOps Engineer Expert (AZ-400)
-              </li>
-              <li>
-                <svg class="icon" aria-hidden="true"><use href="#icon-check" /></svg>
-                Microsoft Certified: Azure Developer Associate (AZ-204)
-              </li>
-              <li>
-                <svg class="icon" aria-hidden="true"><use href="#icon-check" /></svg>
-                Aviatrix Certified Engineer: Multicloud Network Associate
-              </li>
-            </ul>
-
-            <h3 class="subheading eyebrow">Courses</h3>
-            <ul class="checklist">
-              <li>
-                <svg class="icon" aria-hidden="true"><use href="#icon-check" /></svg>
-                Cisco Networking Academy: Introduction to Networks (CCNAv7)
-              </li>
-              <li>
-                <svg class="icon" aria-hidden="true"><use href="#icon-check" /></svg>
-                Cisco Networking Academy: Cybersecurity Program (2021)
-              </li>
-            </ul>
+          <div class="background__row">
+            <dt class="eyebrow">Certifications</dt>
+            <dd>
+              Microsoft Certified: DevOps Engineer Expert (AZ-400) and Azure Developer Associate
+              (AZ-204) · Aviatrix Certified Engineer: Multicloud Network Associate
+            </dd>
           </div>
-
-          <div class="reveal">
-            <h3 class="credentials__title eyebrow">Volunteering</h3>
-            <ul class="entries">
-              <li class="entry">
-                <h4 class="entry__title">Tech CSR Committee Member</h4>
-                <p class="mono">Vantiva (formerly CommScope)</p>
-                <p class="entry__detail">
-                  Mentored 30 B.Tech students at Dayananda Sagar College of Engineering on coding
-                  and how the industry works.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </dl>
       </section>
 
       <section class="contact" id="contact" data-theme="dark" aria-labelledby="contact-title">

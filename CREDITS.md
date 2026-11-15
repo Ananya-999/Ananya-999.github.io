@@ -17,9 +17,9 @@ come from the [Fontsource](https://fontsource.org) packages.
 
 ## Everything else
 
-- **Icons** (mail, external link, copy, check, sun, moon) are simple SVG paths drawn for this site.
+- **Icons** (mail, external link, copy, sun, moon) are simple SVG paths drawn for this site.
 - **Paper texture** is generated in the browser by an SVG noise filter in `assets/css/styles.css`.
-- **Project previews** are drawn with CSS. There are no screenshots, stock photos or logos.
+- **No photos, screenshots, stock images or logos** are used.
 - **Company and product names** (for example Microsoft, Vantiva, Samsung) appear as plain text only.
 
 ## Development tools
