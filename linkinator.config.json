@@ -2,11 +2,5 @@
   "recurse": true,
   "timeout": 15000,
   "retry": true,
-  "skip": [
-    "^mailto:",
-    "^https://ananya-999.github.io",
-    "linkedin.com",
-    "leetcode.com",
-    "hackerrank.com"
-  ]
+  "skip": ["^mailto:", "^https://ananya-999.github.io", "linkedin.com"]
 }
