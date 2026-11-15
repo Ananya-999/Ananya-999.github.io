@@ -1,0 +1,28 @@
+{
+  "name": "ananya-999.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Source for Ananya Velagapudi's portfolio site.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:js": "eslint .",
+    "lint:html": "html-validate index.html 404.html",
+    "check:links": "linkinator index.html 404.html --config linkinator.config.json",
+    "check": "npm run format:check && npm run lint:js && npm run lint:html && npm run check:links"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "html-validate": "^11.21.1",
+    "linkinator": "^8.1.0",
+    "prettier": "^3.10.1"
+  },
+  "overrides": {
+    "glob": "^14.0.6"
+  }
+}
